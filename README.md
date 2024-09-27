@@ -1,9 +1,5 @@
 # Flashy - Your Ultimate iOS Flashlight App
 
-<p align="center">
-  <img src="path_to_your_app_icon.png" alt="Flashy App Icon" width="200"/>
-</p>
-
 ## 🔦 About Flashy
 
 Flashy transforms your iPhone into a powerful, multi-functional light source. Whether you need a bright beam for navigation, a colorful ambiance for your space, or a life-saving SOS signal, Flashy has you covered.
@@ -16,13 +12,6 @@ Flashy transforms your iPhone into a powerful, multi-functional light source. Wh
 - 💡 Strobe effects for attention-grabbing
 - 🔋 Battery-efficient design
 
-## 📱 Screenshots
-
-<p align="center">
-  <img src="path_to_screenshot1.png" width="200" />
-  <img src="path_to_screenshot2.png" width="200" /> 
-  <img src="path_to_screenshot3.png" width="200" />
-</p>
 
 ## 🛠 Installation
 
