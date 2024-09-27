@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E49B5232CA6E05F002CD83B /* Flashy_LightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B5222CA6E05F002CD83B /* Flashy_LightApp.swift */; };
+		5E49B5252CA6E05F002CD83B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B5242CA6E05F002CD83B /* ContentView.swift */; };
+		5E49B5272CA6E060002CD83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E49B5262CA6E060002CD83B /* Assets.xcassets */; };
+		5E49B52A2CA6E060002CD83B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E49B5292CA6E060002CD83B /* Preview Assets.xcassets */; };
+		5E49B5342CA6E060002CD83B /* Flashy_LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B5332CA6E060002CD83B /* Flashy_LightTests.swift */; };
+		5E49B53E2CA6E060002CD83B /* Flashy_LightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B53D2CA6E060002CD83B /* Flashy_LightUITests.swift */; };
+		5E49B5402CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B53F2CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E49B5302CA6E060002CD83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E49B5172CA6E05F002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E49B51E2CA6E05F002CD83B;
+			remoteInfo = "Flashy Light";
+		};
+		5E49B53A2CA6E060002CD83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E49B5172CA6E05F002CD83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E49B51E2CA6E05F002CD83B;
+			remoteInfo = "Flashy Light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E49B51F2CA6E05F002CD83B /* Flashy Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flashy Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E49B5222CA6E05F002CD83B /* Flashy_LightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashy_LightApp.swift; sourceTree = "<group>"; };
+		5E49B5242CA6E05F002CD83B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E49B5262CA6E060002CD83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E49B5292CA6E060002CD83B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E49B52F2CA6E060002CD83B /* Flashy LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flashy LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E49B5332CA6E060002CD83B /* Flashy_LightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashy_LightTests.swift; sourceTree = "<group>"; };
+		5E49B5392CA6E060002CD83B /* Flashy LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flashy LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E49B53D2CA6E060002CD83B /* Flashy_LightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashy_LightUITests.swift; sourceTree = "<group>"; };
+		5E49B53F2CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashy_LightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E49B51C2CA6E05F002CD83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E49B52C2CA6E060002CD83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E49B5362CA6E060002CD83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E49B5162CA6E05F002CD83B = {
+			isa = PBXGroup;
+			children = (
+				5E49B5212CA6E05F002CD83B /* Flashy Light */,
+				5E49B5322CA6E060002CD83B /* Flashy LightTests */,
+				5E49B53C2CA6E060002CD83B /* Flashy LightUITests */,
+				5E49B5202CA6E05F002CD83B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E49B5202CA6E05F002CD83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E49B51F2CA6E05F002CD83B /* Flashy Light.app */,
+				5E49B52F2CA6E060002CD83B /* Flashy LightTests.xctest */,
+				5E49B5392CA6E060002CD83B /* Flashy LightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E49B5212CA6E05F002CD83B /* Flashy Light */ = {
+			isa = PBXGroup;
+			children = (
+				5E49B5222CA6E05F002CD83B /* Flashy_LightApp.swift */,
+				5E49B5242CA6E05F002CD83B /* ContentView.swift */,
+				5E49B5262CA6E060002CD83B /* Assets.xcassets */,
+				5E49B5282CA6E060002CD83B /* Preview Content */,
+			);
+			path = "Flashy Light";
+			sourceTree = "<group>";
+		};
+		5E49B5282CA6E060002CD83B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E49B5292CA6E060002CD83B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E49B5322CA6E060002CD83B /* Flashy LightTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E49B5332CA6E060002CD83B /* Flashy_LightTests.swift */,
+			);
+			path = "Flashy LightTests";
+			sourceTree = "<group>";
+		};
+		5E49B53C2CA6E060002CD83B /* Flashy LightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E49B53D2CA6E060002CD83B /* Flashy_LightUITests.swift */,
+				5E49B53F2CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift */,
+			);
+			path = "Flashy LightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E49B51E2CA6E05F002CD83B /* Flashy Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E49B5432CA6E060002CD83B /* Build configuration list for PBXNativeTarget "Flashy Light" */;
+			buildPhases = (
+				5E49B51B2CA6E05F002CD83B /* Sources */,
+				5E49B51C2CA6E05F002CD83B /* Frameworks */,
+				5E49B51D2CA6E05F002CD83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flashy Light";
+			productName = "Flashy Light";
+			productReference = 5E49B51F2CA6E05F002CD83B /* Flashy Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E49B52E2CA6E060002CD83B /* Flashy LightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E49B5462CA6E060002CD83B /* Build configuration list for PBXNativeTarget "Flashy LightTests" */;
+			buildPhases = (
+				5E49B52B2CA6E060002CD83B /* Sources */,
+				5E49B52C2CA6E060002CD83B /* Frameworks */,
+				5E49B52D2CA6E060002CD83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E49B5312CA6E060002CD83B /* PBXTargetDependency */,
+			);
+			name = "Flashy LightTests";
+			productName = "Flashy LightTests";
+			productReference = 5E49B52F2CA6E060002CD83B /* Flashy LightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E49B5382CA6E060002CD83B /* Flashy LightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E49B5492CA6E060002CD83B /* Build configuration list for PBXNativeTarget "Flashy LightUITests" */;
+			buildPhases = (
+				5E49B5352CA6E060002CD83B /* Sources */,
+				5E49B5362CA6E060002CD83B /* Frameworks */,
+				5E49B5372CA6E060002CD83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E49B53B2CA6E060002CD83B /* PBXTargetDependency */,
+			);
+			name = "Flashy LightUITests";
+			productName = "Flashy LightUITests";
+			productReference = 5E49B5392CA6E060002CD83B /* Flashy LightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E49B5172CA6E05F002CD83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5E49B51E2CA6E05F002CD83B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5E49B52E2CA6E060002CD83B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5E49B51E2CA6E05F002CD83B;
+					};
+					5E49B5382CA6E060002CD83B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5E49B51E2CA6E05F002CD83B;
+					};
+				};
+			};
+			buildConfigurationList = 5E49B51A2CA6E05F002CD83B /* Build configuration list for PBXProject "Flashy Light" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E49B5162CA6E05F002CD83B;
+			productRefGroup = 5E49B5202CA6E05F002CD83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E49B51E2CA6E05F002CD83B /* Flashy Light */,
+				5E49B52E2CA6E060002CD83B /* Flashy LightTests */,
+				5E49B5382CA6E060002CD83B /* Flashy LightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E49B51D2CA6E05F002CD83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E49B52A2CA6E060002CD83B /* Preview Assets.xcassets in Resources */,
+				5E49B5272CA6E060002CD83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E49B52D2CA6E060002CD83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E49B5372CA6E060002CD83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E49B51B2CA6E05F002CD83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E49B5252CA6E05F002CD83B /* ContentView.swift in Sources */,
+				5E49B5232CA6E05F002CD83B /* Flashy_LightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E49B52B2CA6E060002CD83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E49B5342CA6E060002CD83B /* Flashy_LightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E49B5352CA6E060002CD83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E49B5402CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift in Sources */,
+				5E49B53E2CA6E060002CD83B /* Flashy_LightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E49B5312CA6E060002CD83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E49B51E2CA6E05F002CD83B /* Flashy Light */;
+			targetProxy = 5E49B5302CA6E060002CD83B /* PBXContainerItemProxy */;
+		};
+		5E49B53B2CA6E060002CD83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E49B51E2CA6E05F002CD83B /* Flashy Light */;
+			targetProxy = 5E49B53A2CA6E060002CD83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E49B5412CA6E060002CD83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E49B5422CA6E060002CD83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E49B5442CA6E060002CD83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashy Light/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ash.Flashy-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E49B5452CA6E060002CD83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashy Light/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ash.Flashy-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E49B5472CA6E060002CD83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ash.Flashy-LightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashy Light.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flashy Light";
+			};
+			name = Debug;
+		};
+		5E49B5482CA6E060002CD83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ash.Flashy-LightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashy Light.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flashy Light";
+			};
+			name = Release;
+		};
+		5E49B54A2CA6E060002CD83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ash.Flashy-LightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flashy Light";
+			};
+			name = Debug;
+		};
+		5E49B54B2CA6E060002CD83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ash.Flashy-LightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flashy Light";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E49B51A2CA6E05F002CD83B /* Build configuration list for PBXProject "Flashy Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E49B5412CA6E060002CD83B /* Debug */,
+				5E49B5422CA6E060002CD83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E49B5432CA6E060002CD83B /* Build configuration list for PBXNativeTarget "Flashy Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E49B5442CA6E060002CD83B /* Debug */,
+				5E49B5452CA6E060002CD83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E49B5462CA6E060002CD83B /* Build configuration list for PBXNativeTarget "Flashy LightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E49B5472CA6E060002CD83B /* Debug */,
+				5E49B5482CA6E060002CD83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E49B5492CA6E060002CD83B /* Build configuration list for PBXNativeTarget "Flashy LightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E49B54A2CA6E060002CD83B /* Debug */,
+				5E49B54B2CA6E060002CD83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E49B5172CA6E05F002CD83B /* Project object */;
+}
