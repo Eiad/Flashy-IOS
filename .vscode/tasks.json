@@ -1,0 +1,20 @@
+{
+    "label": "Build iOS App",
+    "type": "shell",
+    "command": "xcodebuild",
+    "args": [
+        "-scheme",
+        "FlashyLight",
+        "-project",
+        "FlashyLight.xcodeproj", // Change to xcodeproj
+        "-configuration",
+        "Debug",
+        "-destination",
+        "generic/platform=iOS"
+    ],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "problemMatcher": []
+}

@@ -14,6 +14,7 @@
 		5E49B5342CA6E060002CD83B /* Flashy_LightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B5332CA6E060002CD83B /* Flashy_LightTests.swift */; };
 		5E49B53E2CA6E060002CD83B /* Flashy_LightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B53D2CA6E060002CD83B /* Flashy_LightUITests.swift */; };
 		5E49B5402CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49B53F2CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift */; };
+		5E49B54D2CA74B54002CD83B /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E49B54C2CA74B54002CD83B /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5E49B5392CA6E060002CD83B /* Flashy LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flashy LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E49B53D2CA6E060002CD83B /* Flashy_LightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashy_LightUITests.swift; sourceTree = "<group>"; };
 		5E49B53F2CA6E060002CD83B /* Flashy_LightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashy_LightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E49B54C2CA74B54002CD83B /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		5E49B5162CA6E05F002CD83B = {
 			isa = PBXGroup;
 			children = (
+				5E49B54C2CA74B54002CD83B /* info.plist */,
 				5E49B5212CA6E05F002CD83B /* Flashy Light */,
 				5E49B5322CA6E060002CD83B /* Flashy LightTests */,
 				5E49B53C2CA6E060002CD83B /* Flashy LightUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				5E49B52A2CA6E060002CD83B /* Preview Assets.xcassets in Resources */,
 				5E49B5272CA6E060002CD83B /* Assets.xcassets in Resources */,
+				5E49B54D2CA74B54002CD83B /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashy Light/Preview Content\"";
+				DEVELOPMENT_TEAM = LJK4SGP7TG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashy Light/Preview Content\"";
+				DEVELOPMENT_TEAM = LJK4SGP7TG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
