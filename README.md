@@ -27,11 +27,6 @@ Flashy respects your privacy. We do not collect any personal data. Your experien
 
 Developed with ❤️ by Ash
 
-## 📬 Feedback
-
-We value your input! For suggestions or feedback, please contact:
-[ask.only.ash@gmail.com](mailto:ask.only.ash@gmail.com)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
